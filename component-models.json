@@ -160,7 +160,7 @@
       },
       {
         "component": "select",
-        "name": "variant",
+        "name": "classes",
         "label": "Alert Type",
         "valueType": "string",
         "options": [
