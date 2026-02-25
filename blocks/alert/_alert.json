@@ -35,6 +35,34 @@
           "name": "message",
           "label": "Message",
           "required": true
+        },
+        {
+          "component": "select",
+          "name": "variant",
+          "label": "Alert Type",
+          "valueType": "string",
+          "options": [
+            {
+              "name": "Default",
+              "value": ""
+            },
+            {
+              "name": "Warning",
+              "value": "warning"
+            },
+            {
+              "name": "Success",
+              "value": "success"
+            },
+            {
+              "name": "Error",
+              "value": "error"
+            },
+            {
+              "name": "Info",
+              "value": "info"
+            }
+          ]
         }
       ]
     }
